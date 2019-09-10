@@ -226,7 +226,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #777;
+    color: #c1c1c1;
     font-size: 16px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -413,6 +413,7 @@ a:focus {
 
 #gallery h2{
     margin: 40px;
+    text-transform: capitalize;
 }
 
 
@@ -453,6 +454,7 @@ a:focus {
     background: #bfba55;
     border-radius: 100px;
     border: none;
+    font-size: 150%;
     color: #ffffff;
     font-weight: bold;
     transition: all 0.4s ease-in-out;
@@ -462,7 +464,12 @@ a:focus {
     background: #333;
 }
 
-
+#contact p{
+    color: #2e2e2e;
+    letter-spacing: 1px;
+    font-size: 120%;
+    font-weight: 200;
+}
 
 /*---------------------------------------
    Blog section              
