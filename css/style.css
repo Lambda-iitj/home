@@ -354,6 +354,7 @@ a:focus {
    About section              
 -----------------------------------------*/
 
+
 #about .row{
     padding: 50px;
 }
@@ -364,13 +365,13 @@ a:focus {
     width: 40%;
     height: auto;
     border-radius: 50%;
-    border: 2px solid #555;
-    box-shadow: 2px 2px 10px #555;
+    border: 2px solid #bfba55;
+    box-shadow: 2px 2px 10px rgb(32, 32, 32);
 }
 
 .person-info{
     padding: 40px;
-    border-left: 2px solid #555; 
+    border-left: 2px solid #bfba55; 
 }
 
 
