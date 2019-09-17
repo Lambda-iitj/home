@@ -1,240 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Gallery</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/magnific-popup.css">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
 </head>
+
 <body>
 
-<!-- PRE LOADER -->
+    <!-- PRE LOADER -->
 
-<div class="preloader">
-     <div class="sk-spinner sk-spinner-wordpress">
-          <span class="sk-inner-circle"></span>
-     </div>
-</div>
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-wordpress">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </div>
 
-<!-- Navigation section  -->
+    <!-- Navigation section  -->
 
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-     <div class="container">
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
 
-          <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
-               </button>
-               <a href="index.html" class="navbar-brand">Lambda</a>
-          </div>
-          <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav navbar-right">
+                </button>
+                <a href="index.html" class="navbar-brand">Lambda</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">Members</a></li>
                     <li class="active"><a href="gallery.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
-               </ul>
-          </div>
+                </ul>
+            </div>
 
-  </div>
-</div>
+        </div>
+    </div>
 
-<!-- Home Section -->
+    <!-- Home Section -->
 
-<section id="home" class="main-gallery parallax-section">
-     <div class="overlay"></div>
-     <div class="container">
-          <div class="row">
+    <section id="home" class="main-gallery parallax-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
 
-               <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12">
                     <h1>Projects</h1>
-               </div>
+                </div>
 
-          </div>
-     </div>
-</section>
+            </div>
+        </div>
+    </section>
 
-<!-- Gallery Section -->
+    <!-- Gallery Section -->
 
-<section id="gallery">
-     <div class="container">
-          <div class="row">
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
 
-               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <h2>SKIN LESION ANALYSIS FOR MELANOMA DETECTION : </h2>
-<img src="./images/one.png" height="300" width = "300" align="right">
-                    <ul><li>
-<p>Proposed a state of the art segmentation network for classify lesion pixel in demroscopic images.</p></li>
-                    <li><p>A two stage architecture first localizes the possible skin lesion and then are fed to the segmentation network.</p></li>
-<li><p>Segmentation network was pretrained on the cropped dataset prepared from the original masks.
-</p></li>
-<p> By :- Shreshth Saini & Divij Gupta</p>
-</ul></div>
-                    
-           <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <img src="./images/one.png" height="300" width="300" align="right">
+                    <ul>
+                        <li>
+                            <p>Proposed a state of the art segmentation network for classify lesion pixel in demroscopic images.</p>
+                        </li>
+                        <li>
+                            <p>A two stage architecture first localizes the possible skin lesion and then are fed to the segmentation network.</p>
+                        </li>
+                        <li>
+                            <p>Segmentation network was pretrained on the cropped dataset prepared from the original masks.
+                            </p>
+                        </li>
+                        <p> By :- Shreshth Saini & Divij Gupta</p>
+                    </ul>
+                </div>
+
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
 
                     <h2>SEGMENTATION OF THE LEFT ATRIAL CAVITY FROM 3D GADOLINIUM-ENHANCED MRI DATA : </h2>
-<img src="./images/two.png" height="300" width = "300" align="right">
-                    <ul><li>
-<p>We propose a 3D architecture for the localization of the 3D data to produce tightly fit 3D volumetric samples.</p></li>
-                    <li><p>A modified version of the Faster RCNN based architecture is developed for the localization and producing cubic samples.</p></li>
-<li><p>The cubes are then fed to a 3D U-Net + Hourglass network for generating 3D masks
-</p></li>
-<p>By :-Shreshth Saini & Divij Gupta</p>
-</ul></div>         
+                    <img src="./images/two.png" height="300" width="300" align="right">
+                    <ul>
+                        <li>
+                            <p>We propose a 3D architecture for the localization of the 3D data to produce tightly fit 3D volumetric samples.</p>
+                        </li>
+                        <li>
+                            <p>A modified version of the Faster RCNN based architecture is developed for the localization and producing cubic samples.</p>
+                        </li>
+                        <li>
+                            <p>The cubes are then fed to a 3D U-Net + Hourglass network for generating 3D masks
+                            </p>
+                        </li>
+                        <p>By :-Shreshth Saini & Divij Gupta</p>
+                    </ul>
+                </div>
 
-<div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <h2>EAR SEGMENTATION : </h2>
-<img src="./images/three.png" height="300" width = "300" align="right">
-                    <ul><li>
-<p>An end-to-end architecture to segment the human-Ear was designed in keras.</p></li>
-                    <li><p>The architecture was inspired from UNet and was modified intensively and performed well.</p></li>
-<li><p>Further work introduces the pix2pix GANs for the segmentation task.
-</p></li>
-<p>By :-Shreshth Saini & Divij Gupta</p>
-</ul></div>   
+                    <img src="./images/three.png" height="300" width="300" align="right">
+                    <ul>
+                        <li>
+                            <p>An end-to-end architecture to segment the human-Ear was designed in keras.</p>
+                        </li>
+                        <li>
+                            <p>The architecture was inspired from UNet and was modified intensively and performed well.</p>
+                        </li>
+                        <li>
+                            <p>Further work introduces the pix2pix GANs for the segmentation task.
+                            </p>
+                        </li>
+                        <p>By :-Shreshth Saini & Divij Gupta</p>
+                    </ul>
+                </div>
 
-<div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
 
                     <h2>Classification of PathologicAL Myopia from retinal images using Deep Learning Network : </h2>
-<img src="./images/image.png" height="300" width = "300" align="right">
-            <ul>        
-<p>This project focuses on investigation and development of an algorithms associated with recognition of Pathologic Myopia (PM) and classification of fundus images taken from patients suffered from PM disease into 3 labels:</p>
-<li><p>Pathological Myopia</p></li>  <li><p>High Myopia</p></li> 
-<p>Myopia is one of the optical disease having highest morbidity. More than 2 billion people have myopia in whole world, among which 35% are suffering from high myopia, it is important to have early diagnosis and regular follow-up. This has motivated the research and development of Classification network so that it can be detected at early stage and can be cured.   </p>             
-<p>By :-Anupama Patel</p>
-</ul></div>  
+                    <img src="./images/image.png" height="300" width="300" align="right">
+                    <ul>
+                        <p>This project focuses on investigation and development of an algorithms associated with recognition of Pathologic Myopia (PM) and classification of fundus images taken from patients suffered from PM disease into 3 labels:</p>
+                        <li>
+                            <p>Pathological Myopia</p>
+                        </li>
+                        <li>
+                            <p>High Myopia</p>
+                        </li>
+                        <p>Myopia is one of the optical disease having highest morbidity. More than 2 billion people have myopia in whole world, among which 35% are suffering from high myopia, it is important to have early diagnosis and regular follow-up. This has motivated the research and development of Classification network so that it can be detected at early stage and can be cured. </p>
+                        <p>By :-Anupama Patel</p>
+                    </ul>
+                </div>
 
-<div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <h2>CLASSIFICATION OF DOCUMENT EMBEDDED IMAGES : </h2>
-                    <ul><li>
-<p>Our architecture had RES-NET50 as feature extractor and a Fully connected classifier
-classifying into 6 classes.</p></li>
-                    <li><p>Made our own data-set consisting of 1050 images of various Document Embedded
-images of class Tables, Graphs, Charts, etc</p></li>
-<p>By :-Mayank Maheshwari</p>
+                    <ul>
+                        <li>
+                            <p>Our architecture had RES-NET50 as feature extractor and a Fully connected classifier
+                                classifying into 6 classes.</p>
+                        </li>
+                        <li>
+                            <p>Made our own data-set consisting of 1050 images of various Document Embedded
+                                images of class Tables, Graphs, Charts, etc</p>
+                        </li>
+                        <p>By :-Mayank Maheshwari</p>
 
-</ul></div>  
+                    </ul>
+                </div>
 
-<div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <h2>SPIE-AAPM-NCI BREASTPATHQ: CANCER CELLULARITY CHALLENGE 2019: </h2>
                     <p>The challenge have five tasks:-</p>
                     <ul>
-                         <li>
-                              Liver Segmentation (CT-MRI)
-                         </li>
-                         <li>
-                              Liver Segmentation (CT only)
-                         </li>
-                         <li>
-                              Liver Segmentation (MRI only)
-                         </li>
-                         <li>
-                              Segmentation of abdominal organs (CT+MRI)
-                         </li>
-                         <li>
-                              Segmentation of abdominal organs (MRI only)
-                         </li>
+                        <li>
+                            Liver Segmentation (CT-MRI)
+                        </li>
+                        <li>
+                            Liver Segmentation (CT only)
+                        </li>
+                        <li>
+                            Liver Segmentation (MRI only)
+                        </li>
+                        <li>
+                            Segmentation of abdominal organs (CT+MRI)
+                        </li>
+                        <li>
+                            Segmentation of abdominal organs (MRI only)
+                        </li>
                     </ul>
                     <p>Developed a segmentation network inspired from UNet having special blocks in encoder and decoder part, used novel
-                    training methodology, and achieved satisfying results  </p>
+                        training methodology, and achieved satisfying results </p>
 
-<p>By :-Nisarg Shah</p>
-                   </div>    
+                    <p>By :-Nisarg Shah</p>
+                </div>
 
-<div class="col-md-offset-1 col-md-10 col-sm-12">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <h2>CHAOS - COMBINED (CT-MR) HEALTHY ABDOMINAL ORGAN SEGMENTATION : </h2>
                     <p>Proposed an architecture for localization of cancerous cells in images</p>
-                    
-                    <p>Implemented a segmentation architecture followed by regression model for producing the results that beat earlier state-of-the-art results available     </p>
-<p>By :-Nisarg Shah</p>
-                   </div>                   
-<div class="col-md-offset-1 col-md-10 col-sm-12">
-     <h2>Automated system for lung nodule detection for CT images : </h2>
-     <ul>
-          <li>
-               <p>Major work includes segmentation of lung CT scan,detection of lung nodule candidates ,extraction of
-                    features and to
-                    classify nodule candidates into nodule or non-nodule.</p>
-          </li>
-          <li>
-               <p>Project includes the use of image processing operations like morphological operations and spatial
-                    filtering.</p>
-          </li>
-          <p>By :-Geetika Agrawal</p>
 
-     </ul>
-                    </div>
+                    <p>Implemented a segmentation architecture followed by regression model for producing the results that beat earlier state-of-the-art results available </p>
+                    <p>By :-Nisarg Shah</p>
+                </div>
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h2>Automated system for lung nodule detection for CT images : </h2>
+                    <ul>
+                        <li>
+                            <p>Major work includes segmentation of lung CT scan,detection of lung nodule candidates ,extraction of
+                                features and to
+                                classify nodule candidates into nodule or non-nodule.</p>
+                        </li>
+                        <li>
+                            <p>Project includes the use of image processing operations like morphological operations and spatial
+                                filtering.</p>
+                        </li>
+                        <p>By :-Geetika Agrawal</p>
 
-          </div>
-     </div>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
 
 
 
-</section>
+    </section>
 
-<!-- Footer Section -->
+    <!-- Footer Section -->
 
-<footer>
-     <div class="container">
-          <div class="row">
+    <footer>
+        <div class="container">
+            <div class="row">
 
-               <!-- <div class="col-md-5 col-md-offset-1 col-sm-6">
+                <!-- <div class="col-md-5 col-md-offset-1 col-sm-6">
                     <h3>Lambda</h3>
                     <p>We are a group of undergraduate students who work on solving real problems through Artificial Intelligence.</p>
                </div> -->
 
-               <div class="col-md-4 col-md-offset-1 col-sm-6 footer-for-other-pages">
+                <div class="col-md-4 col-md-offset-1 col-sm-6 footer-for-other-pages">
                     <h3>Talk to us</h3>
                     <p><i class="fa fa-globe"></i> Indian Institute of Technology, Jodhpur</p>
                     <p><i class="fa fa-phone"></i> +91-95888956644,&nbsp;+91-9549502722</p>
                     <p><i class="fa fa-google"></i>
-                    <a href = "mailto: lambda.iitj19@gmail.com" id="email">lambda.iitj19@gmail.com</a></p>
-               </div>
+                        <a href="mailto: lambda.iitj19@gmail.com" id="email">lambda.iitj19@gmail.com</a></p>
+                </div>
 
-               <div class="clearfix col-md-12 col-sm-12">
+                <div class="clearfix col-md-12 col-sm-12">
                     <hr>
-               </div>
+                </div>
 
-<div class="col-md-12 col-sm-12">
-     <ul class="social-icon">
-          <!--  <li><a href="https://www.facebook.com/profile.php?id=100012947222443" class="fa fa-facebook"></a></li>
+                <div class="col-md-12 col-sm-12">
+                    <ul class="social-icon">
+                        <!--  <li><a href="https://www.facebook.com/profile.php?id=100012947222443" class="fa fa-facebook"></a></li>
                          <li><a href="https://twitter.com/Anmolcool007" class="fa fa-twitter"></a></li> -->
-          <li><a href="https://github.com/Lambda-iitj" class="fa fa-github"></a></li>
-          <!-- <li><a href="https://www.instagram.com/anmol_cool_007_/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://github.com/Lambda-iitj" class="fa fa-github"></a></li>
+                        <!-- <li><a href="https://www.instagram.com/anmol_cool_007_/" class="fa fa-instagram"></a></li>
                          <li><a href="https://www.linkedin.com/in/anmol-g-707131104/" class="fa fa-linkedin"></a></li> -->
-     </ul>
-</div>
+                    </ul>
+                </div>
 
-          </div>
-     </div>
-</footer>
-<!-- Back top -->
-<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Back top -->
+    <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-<!-- SCRIPTS -->
+    <!-- SCRIPTS -->
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/custom.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
+
 </html>

@@ -354,23 +354,25 @@ a:focus {
    About section              
 -----------------------------------------*/
 
-#about .col-md-6 {
-    padding-top: 22px;
-    padding-bottom: 32px;
+
+#about .row{
+    padding: 50px;
 }
 
-#about .col-md-6 img {
-    padding: 22px 0px 22px 22px;
+.person-img{
+    overflow: hidden;
+    margin-left: 40%;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #bfba55;
+    box-shadow: 2px 2px 10px rgb(32, 32, 32);
 }
 
-#about .col-md-4 {
-    padding-bottom: 32px;
+.person-info{
+    padding: 40px;
+    border-left: 2px solid #bfba55; 
 }
-
-#about .col-md-4 img {
-    padding-top: 12px;
-}
-
 
 
 /*---------------------------------------
@@ -770,7 +772,7 @@ footer p{
    Mobile Responsive         
 -----------------------------------------*/
 
-@media (max-width: 980px) {
+@media (max-width: 992px) {
 
     .main-about,
     .main-single-post,
@@ -779,10 +781,15 @@ footer p{
         height: 35vh;
     }
 
+    .person-img{
+        margin-left: 20%;
+    }
+
+
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     h1 {
         font-size: 52px;
@@ -792,16 +799,22 @@ footer p{
         font-size: 26px;
     }
 
-    #about .col-md-6 img {
-        padding-left: 0px;
-    }
-
     #blog-single-post .blog-single-post-image img {
         padding-bottom: 22px;
     }
 
     footer .col-md-4 {
         padding-top: 22px;
+    }
+
+    .person-img{
+        margin-left: 35%;
+        
+    }
+    .person-info{
+        text-align: center;
+        border-left: none;
+        border-bottom: 2px solid #bfba55;
     }
 
 }
@@ -820,6 +833,16 @@ footer p{
     #blog-single-post {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .person-img{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .person-info{
+        text-align: center;
+        border-left: none;
+        border-bottom: 2px solid #bfba55;
     }
 
 }
